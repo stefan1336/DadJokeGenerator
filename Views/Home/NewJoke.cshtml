@@ -1,0 +1,13 @@
+﻿@model DadJokeModel
+
+<div class="col border border-2 border-dark p-2 ">
+    <h2 class="text-center font-monospace">Funny Jokes #1</h2>
+    <h1>~@Model.Joke~</h1>
+</div>
+
+<button class="border-3 p-2 m-2" style="background-color:aquamarine">
+    <a asp-controller="Home" asp-action="NewJoke">
+        New joke
+    </a>
+</button>
+
